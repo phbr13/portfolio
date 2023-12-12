@@ -36,12 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
             scrub: true,
         }
     })
-    if (screen.width < 1150 && screen.width > 590) {
+    if (window.screen.width < 1150 && window.screen.width > 590) {
         tl.to('#principal', {
             y: "35%",
             duration: 0.13
         })
-    } else if (screen.width < 590){
+    } else if (window.screen.width < 590){
         tl.to('#principal', {
             y: "25%",
             duration: 0.13
