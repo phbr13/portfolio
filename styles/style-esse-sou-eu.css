@@ -1,0 +1,38 @@
+#esse-sou-eu-2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #daebff;
+    font-size: 200px;
+    font-family: 'Gasoek One', sans-serif;
+    z-index: -2;
+}
+
+#esse-sou-eu-2 div {
+    width: 300%;
+    white-space: nowrap;
+    transform: translateX(-987px);
+    transition: all 3.1s ease;
+}
+
+#gato2 {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #daebff;
+    z-index: 2;
+}
+
+#gato2 #gato{
+    height: 300px;
+    transform: scale(20);
+    transition: all 0.8s ease;
+}
+
+.animacao-lado {
+    transform: translateX(150%);
+    transition: all 1s ease;
+}

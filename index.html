@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-geral.css">
+    <link rel="stylesheet" href="styles/style-ccc-animacao.css">
+    <link rel="stylesheet" href="styles/style-esse-sou-eu.css">
+    <link rel="stylesheet" href="styles/style-transicao-projetos.css">
+    <link rel="stylesheet" href="styles/style-projetos-2.css">
+    <link rel="stylesheet" href="styles/style-contato.css">
+    <link rel="stylesheet" href="styles/style-timeline-selector.css">
+    <link rel="shortcut icon" href="imgs/icones/favicon.png" type="image/x-icon">
+    <title>Pedro Henrique</title>
+</head>
+<body onload="load()">
+    <section id="load-screen">
+        <div id="load">
+            <div id="load-img"><img src="imgs/icones/load-icon.png" alt=""></div>
+            <h1 id="load-text">Carregando...</h1>
+        </div>
+    </section>
+    <section id="inicio">
+        <div class="principal" id="principal">
+            <div id="letras">
+                <div id="redes-sociais">
+                    <h2>Oi, eu sou o ph</h2>
+                    <a href="https://github.com/phbr13" target="_blank">
+                        <div class="rede-social">
+                            <img src="imgs/github.svg" alt="">
+                        </div> 
+                    </a>
+                    <a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank">
+                        <div class="rede-social">
+                            <img src="imgs/linkedin.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <h1>Desenvolvedor<br>Front-end</h1>
+                <h3>1 ano de experiência como freelancer ;&#41;</h3>
+            </div>
+            <div id="cat">
+                <img src="imgs/gato-new.svg" alt="">
+            </div>
+        </div>
+        <div id="scroll-the-page">Role a página</div>
+        <div id="scroll-the-page-arrow"><img src="imgs/icones/arrow-down.svg" alt=""></div>
+    </section>
+    <section id="sobre-mim-1">
+        <div id="conversa">
+            <p id="msg1" class="mensagem direita">Quais são suas qualidades<br>como programador?</p>
+            <p id="msg2" class="mensagem">Eu diria que sou um<br>programador CCC</p>
+            <p id="msg3" class="mensagem direita">Programador CCC?</p>
+            <p id="msg4" class="mensagem"><span class="mensagem">C</span>ompetente</p>
+            <p id="msg5" class="mensagem"><span class="mensagem">C</span>riativo</p>
+            <p id="msg6" class="mensagem"><span class="mensagem">C</span>urioso</p>
+        </div>
+    </section>
+    <section id="sobre-mim-2">
+        <div id="esse-sou-eu-2">
+            <div id="dud">ESSE SOU EU ESSE SOU EU ESSE SOU EU ESSE SOU EU ESSE SOU EU ESSE SOU EU ESSE SOU EU ESSE SOU EU</div>
+        </div>
+        <div id="gato2">
+            <div>
+                <img id="gato" src="imgs/gato-new2.svg" alt="">
+            </div>
+        </div>
+        <div style="margin-top: 60px;" class="principal animacao-lado">
+            <div id="esse-sou-eu">
+                <h1>ESSE<br>SOU EU</h1>
+            </div>
+            <div id="me-descricao">
+                <div id="imgs-perfil">
+                    <div>
+                        <div>
+                            <img class="perfil" data-value="-1" id="rosto" src="imgs/13ph.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="perfil" data-value="1" id="grade" src="imgs/gradezinha.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="descricao">
+                    <h2>Pedro Henrique Borges da Costa</h2>
+                    <p style="font-size: 22px;">
+                        Programador CCC (C<span id="ccc">ompetente</span>).
+                    </p>
+                    <p>
+                        Com meu primeiro computador, me interessei pelo mundo da tecnologia e mergulhei na aprendizagem da programação. Escolhi <span class="habilidades">Javascript</span> como minha primeira linguagem, pela sua versatilidade. Comecei desenvolvendo bots para o Discord com <span class="habilidades">Node.js</span> e logo em seguida me adequei pelo desenvolvimento de sites, com isso aprendi <span class="habilidades">HTML</span> e <span class="habilidades">CSS</span> e me entusiasmei com o desenvolvimento web. Procuro trabalhar com prioridade em front-end, porém disponível em back-end
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos-1">
+        <div id="transicao">
+            <p id="projeto-msg-0">OK,</p>
+            <p id="projeto-msg-1">Vamos falar</p>
+            <p id="projeto-msg-2">Sobre</p>
+            <div class="projeto-msg-3" id="projeto-animacao">
+                <div class="center">
+                    <p>
+                        <span id="span1">Projetos?</span>
+                        <span id="span2">Projetos?</span>
+                        <span id="span3">Projetos?</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos-2">
+        <div id="conteudo-projetos">
+            <div id="titulo-projetos">
+                <h1>Meus Projetos</h1>
+            </div>
+            <div id="projetos">
+                <div class="projeto" data-ordem="1" cor="#C8BF60">
+                    <img src="imgs/projetos/em-breve.png" alt="" class="projeto-img">
+                    <div class="info-projeto" style="justify-content: center;">
+                        <div class="plataformas">
+                            <img src="imgs/projetos/mockups/simpsons-gif.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="2" cor="#CD763C">
+                    <img src="imgs/projetos/n1.png" alt="" class="projeto-img">
+                    <div class="info-projeto">
+                        <div class="texto">
+                            <h3>N1 App</h3>
+                            <p>Um webapp feito para administrar o monitoramento de nadadores de alto rendimento. O app tem intuito de recolher informações relacionadas a alimentação, horas de sono, fadiga do atleta. O aplicativo ainda é um protótipo.</p>
+                            <div class="ferramentas">
+                                <img src="imgs/ferramentas/firebase.png" alt="">
+                                <img src="imgs/ferramentas/html-5.png" alt="">
+                                <img src="imgs/ferramentas/css-3.png" alt="">
+                                <img src="imgs/ferramentas/js.png" alt="">
+                            </div>
+                            <div class="botoes">
+                                <a href="https://github.com/phbr13/N1-app" target="_blank">
+                                    <div id="github">
+                                        <img style="border-radius: 0;" src="imgs/icones/pasta.svg" alt="">
+                                        <span>Repositório</span>
+                                    </div>
+                                </a>
+                                <a href="https://n1-app-5c8a4.web.app/" target="_blank">
+                                    <div id="projeto-ar">
+                                        <img style="border-radius: 0;" src="imgs/icones/link.svg" alt="">
+                                        <span>Link</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="plataformas">
+                            <img src="imgs/projetos/mockups/mockup-n1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="3" cor="#B3D8B4">
+                    <img src="imgs/projetos/kiwi.png" alt="" class="projeto-img">
+                    <div class="info-projeto">
+                        <div class="texto">
+                            <h3>Kiwi</h3>
+                            <p>Um site feito com o intuito de dispor informações sobre o animal kiwi e aprimorar minhas habilidades em HTML e CSS. O Kiwi é muito fofo! Visite o site para ver como esse animal é fascinante e curioso (depois de ver meu portfólio).</p>
+                            <div class="ferramentas">
+                                <img src="imgs/ferramentas/html-5.png" alt="">
+                                <img src="imgs/ferramentas/css-3.png" alt="">
+                            </div>
+                            <div class="botoes">
+                                <a href="https://github.com/phbr13/kiwi" target="_blank">
+                                    <div id="github">
+                                        <img style="border-radius: 0;" src="imgs/icones/pasta.svg" alt="">
+                                        <span>Repositório</span>
+                                    </div>
+                                </a>
+                                <a href="https://phbr13.github.io/kiwi/" target="_blank">
+                                    <div id="projeto-ar">
+                                        <img style="border-radius: 0;" src="imgs/icones/link.svg" alt="">
+                                        <span>Link</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="plataformas">
+                            <img src="imgs/projetos/mockups/mockup-kiwi.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="4" cor="#65acc5">
+                    <img src="imgs/projetos/icegurt.png" alt="" class="projeto-img">
+                    <div class="info-projeto">
+                        <div class="texto">
+                            <h3>Icegurt</h3>
+                            <p>Simulação de um site para empresa Icegurt. Há um landing page com introdução a empresa, junto de um sistema de coleção de cartas virtuais. Há também um sistema de compras de sorvetes com carrinho virtual.</p>
+                            <div class="ferramentas">
+                                <img src="imgs/ferramentas/html-5.png" alt="">
+                                <img src="imgs/ferramentas/css-3.png" alt="">
+                                <img src="imgs/ferramentas/js.png" alt="">
+                            </div>
+                            <div class="botoes">
+                                <a href="https://github.com/phbr13/icegurt" target="_blank">
+                                    <div id="github">
+                                        <img style="border-radius: 0;" src="imgs/icones/pasta.svg" alt="">
+                                        <span>Repositório</span>
+                                    </div>
+                                </a>
+                                <a href="https://phbr13.github.io/icegurt/" target="_blank">
+                                    <div id="projeto-ar">
+                                        <img style="border-radius: 0;" src="imgs/icones/link.svg" alt="">
+                                        <span>Link</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="plataformas">
+                            <img style="max-width: none; height: 100%;" src="imgs/projetos/mockups/mockup-icegurt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="5" cor="#354243">
+                    <img src="imgs/projetos/Oceanic-Game.png" alt="" class="projeto-img">
+                    <div class="info-projeto">
+                        <div class="texto">
+                            <h3>Conheça a Oceania</h3>
+                            <p>O site é um jogo de tabuleiro. Feito para jogar no computador e localmente, você ganha conhecimento sobre o continente oceânico enquanto se diverte com os amigos! Perguntas aparecem para testar seu conhecimento.</p>
+                            <div class="ferramentas">
+                                <img src="imgs/ferramentas/html-5.png" alt="">
+                                <img src="imgs/ferramentas/css-3.png" alt="">
+                                <img src="imgs/ferramentas/js.png" alt="">
+                            </div>
+                            <div class="botoes">
+                                <a href="https://github.com/phbr13/Oceania2.0" target="_blank">
+                                    <div id="github">
+                                        <img style="border-radius: 0;" src="imgs/icones/pasta.svg" alt="">
+                                        <span>Repositório</span>
+                                    </div>
+                                </a>
+                                <a href="https://phbr13.github.io/Oceania2.0/" target="_blank">
+                                    <div id="projeto-ar">
+                                        <img style="border-radius: 0;" src="imgs/icones/link.svg" alt="">
+                                        <span>Link</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="plataformas">
+                            <img style="max-width: none; height: 65%;" src="imgs/projetos/mockups/mockup-oceania.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="6" cor="#212D32">
+                    <img src="imgs/projetos/python.png" alt="" class="projeto-img">
+                    <div class="info-projeto">
+                        <div class="texto">
+                            <h3>Aprenda Python</h3>
+                            <p>Serve de vitrine para venda de e-books. O site foi desenvolvido como base de uma landing page, em que o vendedor apresenta seu livro para aprendizagem de python. Porém, o website responsivo se limita a um protótipo.</p>
+                            <div class="ferramentas">
+                                <img src="imgs/ferramentas/html-5.png" alt="">
+                                <img src="imgs/ferramentas/css-3.png" alt="">
+                                <img src="imgs/ferramentas/js.png" alt="">
+                            </div>
+                            <div class="botoes">
+                                <a href="https://github.com/phbr13/Aprenda-python" target="_blank">
+                                    <div id="github">
+                                        <img style="border-radius: 0;" src="imgs/icones/pasta.svg" alt="">
+                                        <span>Repositório</span>
+                                    </div>
+                                </a>
+                                <a href="https://phbr13.github.io/Aprenda-python/" target="_blank">
+                                    <div id="projeto-ar">
+                                        <img style="border-radius: 0;" src="imgs/icones/link.svg" alt="">
+                                        <span>Link</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="plataformas">
+                            <img src="imgs/projetos/mockups/mockup-python.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto" data-ordem="7" cor="#C8BF60">
+                    <img src="imgs/projetos/em-breve.png" alt="" class="projeto-img">
+                    <div class="info-projeto" style="justify-content: center;">
+                        <div class="plataformas">
+                            <img src="imgs/projetos/mockups/simpsons-gif.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="infos">
+                <div id="botoes">
+                    <div onclick="girarCarrossel(false)">
+                        <img src="imgs/leftarrow.svg" alt="">
+                    </div>
+                    <div onclick="girarCarrossel(true)">
+                        <img src="imgs/rightarrow.svg" alt="">
+                    </div>
+                </div>
+                <div id="info-de-fato">
+                    <h3>clique nas setas para escolher o projeto</h3>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div id="contato-pt1">
+            <div id="follow-cursor-vdd" class="follow-cursor"></div>
+            <div id="alert">
+                ✅ Email Copiado!
+            </div>
+            <div id="follow-cursor"></div>
+            <span id="msgs-bola">:&#41;</span>
+        </div>
+        <div id="contato-pt2">
+            <div id="entre-em-contato">
+                <div id="texto-motivador">
+                    <h1 class="split">Que tal</h1>
+                    <h1 class="split">construirmos</h1>
+                    <h1 class="split">algo incrível</h1>
+                    <h1 class="split">juntos?</h1>
+                    <!-- <h1>Que tal</h1>
+                    <h1>transformarmos</h1>
+                    <h1>suas ideias</h1>
+                    <h1>em realidade?</h1> -->
+                </div>
+                <div id="links-contato">
+                    <div id="github-contato" class="link" onclick='irPara(1)'>
+                        <img src="imgs/icones/github-contato.svg" alt="">
+                    </div>
+                    <div id="linkedin-contato" class="link" onclick='irPara(2)'>
+                        <img src="imgs/icones/linkedin-contato.svg" alt="">
+                    </div>
+                    <div id="copy-email" class="link" onclick="irPara(3)">
+                        <img src="imgs/icones/email-contato.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="ilustracao">
+                <div>
+                    <img id="gato-contato" src="imgs/gato-contato.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="progress-bar">
+        <div class="filled"></div>
+    </div>
+    <div id="timeline">
+        <span id="aviso">Viaje para uma seção da timeline</span>
+        <div id="selector-timeline">
+            <div class="selector-mor">
+                <div class="selector" id="introducao-selector" onclick="scrollParaPixel(0)">
+                    <img src="imgs/timeline/introducao.png" alt="">
+                </div>
+                <span>Introdução</span>
+            </div>
+            <div class="selector-mor">
+                <div class="selector" id="sobre-mim-selector" onclick="scrollParaPixel(15801)">
+                    <img src="imgs/timeline/sobre-mim.png" alt="">
+                </div>
+                <span>Sobre Mim</span>
+            </div>
+            <div class="selector-mor">
+                <div class="selector" id="projetos-selector" onclick="scrollParaPixel(21801)">
+                    <img src="imgs/timeline/projetos.png" alt="">
+                </div>
+                <span>Meus Projetos</span>
+            </div>
+            <div class="selector-mor">
+                <div class="selector" id="contato-selector" onclick="scrollParaPixel(38000)">
+                    <img src="imgs/timeline/contato.png" alt="">
+                </div>
+                <span>Contato</span>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script-scroll-animacao.js"></script>
+    <script src="scripts/script-perfil-parallax.js"></script>
+    <script src="scripts/script-ccc-animacao.js"></script>
+    <script src="scripts/script-carrossel-projetos.js"></script>
+    <script src="scripts/script-load-screen.js"></script>
+    <script src="scripts/script-cursor-follow.js"></script>
+    <script src="scripts/script-timeline-selector.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script>
+        const css = `
+        color: black;
+        font-size: 100px;
+        -webkit-text-stroke: 1px #fff
+        `
+        console.log('%coi👁', css)
+    </script>
+</body>
+</html>
+<!-- 
+        __
+   .-;'`  `'-.
+  /   \       `\_..
+  |-"``;-.      || `\                       .-.                                           
+   \    '.`-.   /|  /                       : :
+    `-.   '. \  |-'`                  .---. : `-. 
+       `-.  ) \ |                     : .; `: .. :
+        /` /  / |                     : ._.':_;:_;
+       / /`   | |                     : :               
+      / (     ) /                     :_;   
+    _(   `-,-'_/
+   /  `""""";`
+   `---..---'
+      //\\
+     //---0
+   _//_____
+ /´        `\
+            (~^~_-~^-~^_~^~^-~^_~-^~_^~-^-~^~^_~^~-^~^~^~-^~_
+ -->
+<!-- 
+1-✅
+2-✅
+3-✅
+4-✅
+5-✅
+6-✅
+    .1-✅
+    .2-✅
+    .3-✅
+    .4-✅
+    .5-✅
+    .6-✅
+    .7-✅
+7-transformar-mobile
+    .1-✅
+    .2-✅
+    .3-✅
+    .4-✅
+    .5-scala (ta mais ou menos pronto)
+8-multi-linguas
+9-melhor-experiencia
+-->
